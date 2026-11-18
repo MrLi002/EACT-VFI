@@ -1,0 +1,8 @@
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+opencv-python>=4.8        # or opencv-contrib-python, as in OF-AF
+scikit-image>=0.21
+tqdm>=4.66
+lpips==0.1.4              # optional: perceptual loss and LPIPS metric
+# No cupy / CUDA extension needed: forward splatting is implemented in pure PyTorch.
